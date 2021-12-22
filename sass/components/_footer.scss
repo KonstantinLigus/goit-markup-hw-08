@@ -1,0 +1,38 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--footer-hero-bg-color);
+}
+
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
+.logo-address-container {
+  flex-grow: 1;
+}
+.address-set {
+  margin-top: 20px;
+}
+.address-set__item:not(:first-child) {
+  margin-top: 9px;
+}
+.address-set__link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  cursor: pointer;
+  font-style: normal;
+  text-decoration: none;
+  color: var(--text-first-color);
+
+  &:hover,
+  &:focus {
+    color: var(--text-third-color);
+  }
+}
+.address-set__link--accent {
+  color: var(--text-fifth-color);
+}

@@ -1,0 +1,37 @@
+@import './components/placeholder';
+@import './utils/variables';
+@import './components/common';
+@import './components/reset';
+@import './components/visually-hidden';
+@import './components/container';
+@import './components/section';
+@import './components/section-title';
+
+/* index.html */
+
+// Header
+@import './components/header';
+@import './components/navigation';
+@import './components/logo';
+@import './components/contacts';
+@import './components/current';
+
+// Main
+@import './components/hero';
+@import './components/advantages-set';
+@import './components/our-work-set';
+@import './components/our-team-set';
+@import './components/clients-set';
+
+// Footer
+@import './components/footer';
+@import './components/join-set';
+@import './components/sign-form';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/callback-form';
+
+/* Portfolio */
+
+@import './components/exemples-set';
+@import './components/galery-set';

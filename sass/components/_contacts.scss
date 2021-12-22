@@ -1,0 +1,22 @@
+.contacts-set {
+  display: flex;
+  margin-left: auto;
+}
+.contacts-set__item:last-child {
+  margin-left: 50px;
+}
+.contacts-set__link {
+  @extend %link-style;
+  display: flex;
+  align-items: center;
+  color: var(--text-first-color);
+
+  &:hover,
+  &:focus {
+    color: var(--text-third-color);
+  }
+}
+.contacts-set__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}

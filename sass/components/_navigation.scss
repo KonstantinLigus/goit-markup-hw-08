@@ -1,0 +1,20 @@
+.navigation {
+  margin-left: 93px;
+}
+.navigation-set {
+  display: flex;
+}
+
+.navigation-set__item:not(:first-child) {
+  margin-left: 50px;
+}
+.navigation-set__link {
+  @extend %link-style;
+  display: block;
+  color: var(--text-second-color);
+
+  &:hover,
+  &:focus {
+    color: var(--text-third-color);
+  }
+}
