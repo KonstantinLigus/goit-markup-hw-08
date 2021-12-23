@@ -5,4 +5,24 @@
 .header__container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+}
+.menu__button {
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
 }
