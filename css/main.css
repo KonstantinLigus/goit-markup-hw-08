@@ -1,4 +1,4 @@
-.navigation-set__link, .contacts-set__link {
+.contacts-set__link {
   width: 100%;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -130,7 +130,7 @@ ul {
   }
 }
 
-.menu__button {
+.menu--button {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -143,21 +143,23 @@ ul {
   background-color: transparent;
 }
 
-.navigation {
-  margin-left: 93px;
-}
-
-.navigation-set {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.navigation-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .navigation-set__item:not(:first-child) {
-  margin-left: 50px;
+  margin-bottom: 32px;
 }
 
 .navigation-set__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+  color: #212121;
   display: block;
   color: var(--text-second-color);
 }

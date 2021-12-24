@@ -1,15 +1,27 @@
+.navigation-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .navigation {
-  margin-left: 93px;
+  // margin-left: 93px;
 }
 .navigation-set {
-  display: flex;
+  // display: flex;
 }
 
 .navigation-set__item:not(:first-child) {
-  margin-left: 50px;
+  // margin-left: 50px;
+  margin-bottom: 32px;
 }
 .navigation-set__link {
-  @extend %link-style;
+  // @extend %link-style;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+  color: #212121;
   display: block;
   color: var(--text-second-color);
 
