@@ -4,5 +4,19 @@
 }
 .header__container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 60px;
+
+  @media screen and (min-width: 480px) {
+  }
+}
+.menu-button {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
 }
