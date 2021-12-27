@@ -1,7 +1,5 @@
 .advantages-set {
   // @extend %set;
-  margin-right: auto;
-  margin-left: auto;
 
   @media screen and (min-width: 480px) {
     width: 480px;
@@ -9,10 +7,14 @@
 
   @media screen and (min-width: 768px) {
     width: 768px;
+    display: flex;
+    margin: 0;
+    margin-right: -30px;
   }
 }
-.advantages-set__item {
+.advantages-set__item:not(:last-child) {
   // @extend %set-item;
+  margin-bottom: 30px;
 }
 .advantages__container-icon {
   height: 120px;
@@ -25,6 +27,7 @@
 }
 
 .advantages-set__title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -33,7 +36,6 @@
   color: var(--text-second-color);
 }
 .advantages-set__text {
-  margin-top: 10px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
