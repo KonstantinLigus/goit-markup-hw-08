@@ -1,11 +1,14 @@
-.section--bg-color {
+.container--bg-color {
   background-color: var(--advantages-our-team-color);
 }
+.container--padding {
+  padding-top: 60px;
+}
 .our-team-set {
-  @extend %set;
+  // @extend %set;
 }
 .our-team-set__item {
-  @extend %set-item;
+  // @extend %set-item;
   background: var(--header-hero-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);

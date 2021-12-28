@@ -23,7 +23,8 @@
         url(../../images/background-heder-768-2x.jpg);
     }
   }
-  @media screen and (min-width: 1600px) {
+  @media screen and (min-width: 1200px) {
+    width: 100%;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../../images/background-heder-1600-1x.jpg);
 
