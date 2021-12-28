@@ -84,6 +84,24 @@ ul {
   margin-right: auto;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container {
+    width: 1600px;
+  }
+}
+
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -120,24 +138,12 @@ ul {
   padding-bottom: 16px;
 }
 
-@media screen and (min-width: 480px) {
-  .header__container {
-    width: 480px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .header__container {
     width: 768px;
     height: 80px;
     padding-top: 26px;
     padding-bottom: 26px;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .header__container {
-    width: 1600px;
   }
 }
 
@@ -273,15 +279,8 @@ ul {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .hero {
-    width: 480px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .hero {
-    width: 768px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/background-heder-768-1x.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/background-heder-768-1x.jpg);
   }
@@ -296,7 +295,6 @@ ul {
 
 @media screen and (min-width: 1600px) {
   .hero {
-    width: 1600px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../images/background-heder-1600-1x.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/background-heder-1600-1x.jpg);
   }
@@ -349,21 +347,13 @@ ul {
 }
 
 .advantages-set {
-  width: 100%;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: -30px;
 }
 
-@media screen and (min-width: 480px) {
-  .advantages-set {
-    width: 480px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .advantages-set {
-    width: 768px;
     margin: -15px;
     display: -webkit-box;
     display: -ms-flexbox;

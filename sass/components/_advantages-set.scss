@@ -1,26 +1,15 @@
 .advantages-set {
   // @extend %set;
-  width: 100%;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: -30px;
 
-  @media screen and (min-width: 480px) {
-    width: 480px;
-  }
-
   @media screen and (min-width: 768px) {
-    width: 768px;
     margin: -15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    // margin-right: auto;
-    // margin-left: auto;
-  }
-
-  @media screen and (min-width: 1600px) {
   }
 }
 .advantages-set__item {
@@ -30,6 +19,9 @@
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 4 * 15px) / 2);
     margin: 15px;
+  }
+
+  @media screen and (min-width: 1600px) {
   }
 }
 .advantages__container-icon {
