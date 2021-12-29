@@ -166,15 +166,32 @@
           <h2 class="section__title">Наша команда</h2>
           <ul class="our-team-set">
             <li class="our-team-set__item">
-              <div class="our-team-set__thumb">
-                <img
-                  class="our-team-set__img"
-                  srcset="./images/igor-dem-450-1x.jpg 450w, ./images/igor-dem-450-2x.jpg 900w"
-                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                  src="./images/igor-dem-450-1x.jpg"
-                  alt="фото Игорь Демьяненко"
+              <picture>
+                <source
+                  srcset="./images/igor-dem-270-1x.jpg 1x, ./images/igor-dem-270-2x.jpg 2x"
+                  media="(min-width: 1200px)"
                 />
-              </div>
+                <source
+                  srcset="./images/igor-dem-354-1x.jpg 1x, ./images/igor-dem-354-2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <img src="./images/igor-dem-450-1x.jpg" alt="фото Игорь Демьяненко" />
+              </picture>
+              <!-- <img
+                class="our-team-set__img"
+                srcset="
+                  ./images/igor-dem-450-1x.jpg 450w,
+                  ./images/igor-dem-450-2x.jpg 900w,
+                  ./images/igor-dem-354-1x.jpg 354w,
+                  ./images/igor-dem-354-2x.jpg 708w,
+                  ./images/igor-dem-270-1x.jpg 270w,
+                  ./images/igor-dem-270-2x.jpg 540w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/igor-dem-450-1x.jpg"
+                alt="фото Игорь Демьяненко"
+              /> -->
+
               <div class="our-team-set__wrap">
                 <h3 class="our-team-set__title">Игорь Демьяненко</h3>
                 <p class="our-team-set__text">Product Designer</p>
@@ -212,14 +229,21 @@
             </li>
 
             <li class="our-team-set__item">
-              <div class="our-team-set__thumb">
-                <img
-                  class="our-team-set__img"
-                  crcset="./images/olga-rep-450-1x.jpg 1x, ./images/olga-rep-450-2x.jpg 2x"
-                  src="./images/olga-rep-450-1x.jpg"
-                  alt="фото Ольга Репина"
-                />
-              </div>
+              <img
+                class="our-team-set__img"
+                srcset="
+                  ./images/olga-rep-450-1x.jpg 450w,
+                  ./images/olga-rep-450-2x.jpg 900w,
+                  ./images/olga-rep-354-1x.jpg 354w,
+                  ./images/olga-rep-354-2x.jpg 708w,
+                  ./images/olga-rep-270-1x.jpg 270w,
+                  ./images/olga-rep-270-2x.jpg 540w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/olga-rep-450-1x.jpg"
+                alt="фото Ольга Репина"
+              />
+
               <div class="our-team-set__wrap">
                 <h3 class="our-team-set__title">Ольга Репина</h3>
                 <p class="our-team-set__text">Frontend Developer</p>
@@ -257,14 +281,21 @@
             </li>
 
             <li class="our-team-set__item">
-              <div class="our-team-set__thumb">
-                <img
-                  class="our-team-set__img"
-                  crcset="./images/nick-tar-450-1x.jpg 1x, ./images/nick-tar-450-2x.jpg 2x"
-                  src="./images/nick-tar-450-1x.jpg"
-                  alt="фото Николай Тарасов"
-                />
-              </div>
+              <img
+                class="our-team-set__img"
+                srcset="
+                  ./images/nick-tar-450-1x.jpg 450w,
+                  ./images/nick-tar-450-2x.jpg 900w,
+                  ./images/nick-tar-354-1x.jpg 354w,
+                  ./images/nick-tar-354-2x.jpg 708w,
+                  ./images/nick-tar-270-1x.jpg 270w,
+                  ./images/nick-tar-270-2x.jpg 540w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/nick-tar-450-1x.jpg"
+                alt="фото Николай Тарасов"
+              />
+
               <div class="our-team-set__wrap">
                 <h3 class="our-team-set__title">Николай Тарасов</h3>
                 <p class="our-team-set__text">Marketing</p>
@@ -302,14 +333,21 @@
             </li>
 
             <li class="our-team-set__item">
-              <div class="our-team-set__thumb">
-                <img
-                  class="our-team-set__img"
-                  crcset="./images/mich-erm-270-1x.jpg 1x, ./images/mich-erm-270-2x.jpg 2x"
-                  src="./images/mich-erm-270-1x.jpg"
-                  alt="фото Михаил Ермаков"
-                />
-              </div>
+              <img
+                class="our-team-set__img"
+                srcset="
+                  ./images/mich-erm-450-1x.jpg 450w,
+                  ./images/mich-erm-450-2x.jpg 900w,
+                  ./images/mich-erm-354-1x.jpg 354w,
+                  ./images/mich-erm-354-2x.jpg 708w,
+                  ./images/mich-erm-270-1x.jpg 270w,
+                  ./images/mich-erm-270-2x.jpg 540w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                src="./images/mich-erm-270-1x.jpg"
+                alt="фото Михаил Ермаков"
+              />
+
               <div class="our-team-set__wrap">
                 <h3 class="our-team-set__title">Михаил Ермаков</h3>
                 <p class="our-team-set__text">UI Designer</p>
