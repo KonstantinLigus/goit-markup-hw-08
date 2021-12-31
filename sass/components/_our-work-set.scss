@@ -9,12 +9,13 @@
   padding-top: 0;
 }
 .our-work-set {
-  @extend %set;
+  display: flex;
+  margin: -15px;
 }
 .our-work-set__item {
   position: relative;
   flex-basis: calc(100% / 3 - 30px);
-  margin-right: 30px;
+  margin: 15px;
 }
 .our-work-set__lebel {
   display: flex;

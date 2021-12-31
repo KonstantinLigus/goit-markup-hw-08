@@ -132,7 +132,6 @@
           </ul>
         </div>
       </section>
-
       <!-- Чем мы занимаемся -->
       <section class="section section--padding display">
         <div class="container">
@@ -159,66 +158,57 @@
           </ul>
         </div>
       </section>
-
       <!-- Наша команда -->
-      <section class="section">
-        <div class="container container--bg-color container--padding">
+      <section class="section section--bg-color">
+        <div class="container">
           <h2 class="section__title">Наша команда</h2>
           <ul class="our-team-set">
             <li class="our-team-set__item">
               <picture>
                 <source
-                  srcset="./images/igor-dem-270-1x.jpg 1x, ./images/igor-dem-270-2x.jpg 2x"
+                  srcset="./images/igor-dem-270-1x.jpg 270w, ./images/igor-dem-270-2x.jpg 540w"
                   media="(min-width: 1200px)"
+                  sizes="270px"
                 />
                 <source
-                  srcset="./images/igor-dem-354-1x.jpg 1x, ./images/igor-dem-354-2x.jpg 2x"
+                  srcset="./images/igor-dem-354-1x.jpg 354w, ./images/igor-dem-354-2x.jpg 708w"
                   media="(min-width: 768px)"
+                  sizes="354px"
+                />
+                <source
+                  srcset="./images/igor-dem-450-1x.jpg 450w, ./images/igor-dem-450-2x.jpg 900w"
+                  media="(min-width: 0)"
+                  sizes="450px"
                 />
                 <img src="./images/igor-dem-450-1x.jpg" alt="фото Игорь Демьяненко" />
               </picture>
-              <!-- <img
-                class="our-team-set__img"
-                srcset="
-                  ./images/igor-dem-450-1x.jpg 450w,
-                  ./images/igor-dem-450-2x.jpg 900w,
-                  ./images/igor-dem-354-1x.jpg 354w,
-                  ./images/igor-dem-354-2x.jpg 708w,
-                  ./images/igor-dem-270-1x.jpg 270w,
-                  ./images/igor-dem-270-2x.jpg 540w
-                "
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                src="./images/igor-dem-450-1x.jpg"
-                alt="фото Игорь Демьяненко"
-              /> -->
-
               <div class="our-team-set__wrap">
                 <h3 class="our-team-set__title">Игорь Демьяненко</h3>
                 <p class="our-team-set__text">Product Designer</p>
-                <ul class="social-icons-set">
+                <ul class="social-icons-set our-team-set__social-icons-set">
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-twiter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-linkedin"></use>
                       </svg>
@@ -227,50 +217,53 @@
                 </ul>
               </div>
             </li>
-
             <li class="our-team-set__item">
-              <img
-                class="our-team-set__img"
-                srcset="
-                  ./images/olga-rep-450-1x.jpg 450w,
-                  ./images/olga-rep-450-2x.jpg 900w,
-                  ./images/olga-rep-354-1x.jpg 354w,
-                  ./images/olga-rep-354-2x.jpg 708w,
-                  ./images/olga-rep-270-1x.jpg 270w,
-                  ./images/olga-rep-270-2x.jpg 540w
-                "
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                src="./images/olga-rep-450-1x.jpg"
-                alt="фото Ольга Репина"
-              />
+              <picture>
+                <source
+                  srcset="./images/olga-rep-270-1x.jpg 270w, ./images/olga-rep-270-2x.jpg 540w"
+                  media="(min-width: 1200px)"
+                  sizes="270px"
+                />
+                <source
+                  srcset="./images/olga-rep-354-1x.jpg 354w, ./images/olga-rep-354-2x.jpg 708w"
+                  media="(min-width: 768px)"
+                  sizes="354px"
+                />
+                <source
+                  srcset="./images/olga-rep-450-1x.jpg 450w, ./images/olga-rep-450-2x.jpg 900w"
+                  media="(min-width: 0)"
+                  sizes="450px"
+                />
+                <img src="./images/olga-rep-450-1x.jpg" alt="фото Ольга Репина" />
+              </picture>
 
               <div class="our-team-set__wrap">
                 <h3 class="our-team-set__title">Ольга Репина</h3>
                 <p class="our-team-set__text">Frontend Developer</p>
-                <ul class="social-icons-set">
+                <ul class="social-icons-set our-team-set__social-icons-set"">
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-twiter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-linkedin"></use>
                       </svg>
@@ -281,48 +274,51 @@
             </li>
 
             <li class="our-team-set__item">
-              <img
-                class="our-team-set__img"
-                srcset="
-                  ./images/nick-tar-450-1x.jpg 450w,
-                  ./images/nick-tar-450-2x.jpg 900w,
-                  ./images/nick-tar-354-1x.jpg 354w,
-                  ./images/nick-tar-354-2x.jpg 708w,
-                  ./images/nick-tar-270-1x.jpg 270w,
-                  ./images/nick-tar-270-2x.jpg 540w
-                "
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                src="./images/nick-tar-450-1x.jpg"
-                alt="фото Николай Тарасов"
-              />
-
+              <picture>
+                <source
+                  srcset="./images/nick-tar-270-1x.jpg 270w, ./images/nick-tar-270-2x.jpg 540w"
+                  media="(min-width: 1200px)"
+                  sizes="270px"
+                />
+                <source
+                  srcset="./images/nick-tar-354-1x.jpg 354w, ./images/nick-tar-354-2x.jpg 708w"
+                  media="(min-width: 768px)"
+                  sizes="354px"
+                />
+                <source
+                  srcset="./images/nick-tar-450-1x.jpg 450w, ./images/nick-tar-450-2x.jpg 900w"
+                  media="(min-width: 0)"
+                  sizes="450px"
+                />
+                <img src="./images/nick-tar-450-1x.jpg" alt="фото Николай Тарасов" />
+              </picture>
               <div class="our-team-set__wrap">
                 <h3 class="our-team-set__title">Николай Тарасов</h3>
                 <p class="our-team-set__text">Marketing</p>
-                <ul class="social-icons-set">
+                <ul class="social-icons-set our-team-set__social-icons-set"">
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-twiter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-linkedin"></use>
                       </svg>
@@ -333,48 +329,51 @@
             </li>
 
             <li class="our-team-set__item">
-              <img
-                class="our-team-set__img"
-                srcset="
-                  ./images/mich-erm-450-1x.jpg 450w,
-                  ./images/mich-erm-450-2x.jpg 900w,
-                  ./images/mich-erm-354-1x.jpg 354w,
-                  ./images/mich-erm-354-2x.jpg 708w,
-                  ./images/mich-erm-270-1x.jpg 270w,
-                  ./images/mich-erm-270-2x.jpg 540w
-                "
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                src="./images/mich-erm-270-1x.jpg"
-                alt="фото Михаил Ермаков"
-              />
-
+              <picture>
+                <source
+                  srcset="./images/mich-erm-270-1x.jpg 270w, ./images/mich-erm-270-2x.jpg 540w"
+                  media="(min-width: 1200px)"
+                  sizes="270px"
+                />
+                <source
+                  srcset="./images/mich-erm-354-1x.jpg 354w, ./images/mich-erm-354-2x.jpg 708w"
+                  media="(min-width: 768px)"
+                  sizes="354px"
+                />
+                <source
+                  srcset="./images/mich-erm-450-1x.jpg 450w, ./images/mich-erm-450-2x.jpg 900w"
+                  media="(min-width: 0)"
+                  sizes="450px"
+                />
+                <img src="./images/mich-erm-450-1x.jpg" alt="фото Михаил Ермаков" />
+              </picture>
               <div class="our-team-set__wrap">
                 <h3 class="our-team-set__title">Михаил Ермаков</h3>
                 <p class="our-team-set__text">UI Designer</p>
-                <ul class="social-icons-set">
+                <ul class="social-icons-set our-team-set__social-icons-set"">
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-twiter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-icons-set__item">
-                    <a href="" class="social-icons-set__link">
+                    <a href="" class="social-icons-set__link social-icons-set__link--color">
                       <svg width="20" height="20" class="social-icons-set__icon">
                         <use href="./images/new-sprite.svg#icon-linkedin"></use>
                       </svg>
@@ -386,9 +385,7 @@
           </ul>
         </div>
       </section>
-
       <!-- Постоянные клиенты -->
-
       <section class="section">
         <div class="container">
           <h2 class="section__title">Постоянные клиенты</h2>
@@ -441,72 +438,69 @@
     </main>
 
     <!-- Футер -->
-    <footer class="footer">
-      <!-- Адрес -->
-      <div class="container footer__container">
+    <footer class="section section--footer">
+      <div class="container container--footer">
         <div class="logo-address-container">
           <a href="" class="logo"
             ><span class="logo__accent">Web</span><span class="logo__accent-studio">Studio</span></a
           >
           <address class="address">
-            <ul class="address-set">
-              <li class="address-set__item">
+            <ul>
+              <li class="address__item">
                 <a
                   href="https://goo.gl/maps/mUnxRLxeDmvpBzua8"
                   target="_blank"
-                  class="address-set__link address-set__link--accent"
+                  class="address__link address-set__link--accent"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="address-set__item">
-                <a href="mailto:info@devstudio.com" class="address-set__link">info@devstudio.com</a>
+              <li class="address__item">
+                <a href="mailto:info@devstudio.com" class="address__link">info@devstudio.com</a>
               </li>
-              <li class="address-set__item">
-                <a href="tel:+380961111111" class="address-set__link">+380 961 111 111</a>
+              <li class="address__item">
+                <a href="tel:+380961111111" class="address__link">+380 961 111 111</a>
               </li>
             </ul>
           </address>
         </div>
-        <!-- Присоединяйтесь -->
         <div class="join">
           <p class="join__text">присоединяйтесь</p>
-          <ul class="join-set">
-            <li class="join-set__item">
-              <a href="" class="join-set__link">
-                <svg width="20" height="20" class="join-set__icon">
+          <ul class="social-icons-set join__social-icons-set">
+            <li class="social-icons-set__item">
+              <a href="" class="social-icons-set__link social-icons-set__link--bg-color">
+                <svg width="20" height="20" class="social-icons-set__icon">
                   <use href="./images/new-sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-set__item">
-              <a href="" class="join-set__link">
-                <svg width="20" height="20" class="join-set__icon">
+            <li class="social-icons-set__item">
+              <a href="" class="social-icons-set__link social-icons-set__link--bg-color">
+                <svg width="20" height="20" class="social-icons-set__icon">
                   <use href="./images/new-sprite.svg#icon-twiter"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-set__item">
-              <a href="" class="join-set__link">
-                <svg width="20" height="20" class="join-set__icon">
+            <li class="social-icons-set__item">
+              <a href="" class="social-icons-set__link social-icons-set__link--bg-color">
+                <svg width="20" height="20" class="social-icons-set__icon">
                   <use href="./images/new-sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="join-set__item">
-              <a href="" class="join-set__link">
-                <svg width="20" height="20" class="join-set__icon">
+            <li class="social-icons-set__item">
+              <a href="" class="social-icons-set__link social-icons-set__link--bg-color">
+                <svg width="20" height="20" class="social-icons-set__icon">
                   <use href="./images/new-sprite.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <!-- Подпишитесь на рассылку -->
         <form class="sign-form">
-          <label class="sign-form__label">
-            Подпишитесь на рассылку
-            <input type="email" name="email" class="sign-form__input" placeholder="E-mail" />
-          </label>
+          <div>
+            <label for="sign-form" class="sign-form__label">Подпишитесь на рассылку</label>
+            <input id="sign-form" type="email" name="email" class="sign-form__input" placeholder="E-mail" />
+          </div>  
           <button type="submit" class="sign-form__button">
             Подписаться
             <svg width="24" height="24" class="sign-form__button-icon">

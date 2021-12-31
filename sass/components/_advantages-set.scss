@@ -1,5 +1,4 @@
 .advantages-set {
-  // @extend %set;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: -30px;
@@ -12,7 +11,6 @@
   }
 }
 .advantages-set__item {
-  // @extend %set-item;
   margin-bottom: 30px;
 
   @media screen and (min-width: 768px) {
@@ -42,6 +40,10 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-second-color);
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
 }
 .advantages-set__text {
   font-size: 14px;
