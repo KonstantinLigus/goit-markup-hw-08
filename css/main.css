@@ -787,6 +787,7 @@ ul {
 
 .sign-form__input {
   display: block;
+  width: 100%;
   height: 50px;
   margin-top: 20px;
   margin-right: auto;
