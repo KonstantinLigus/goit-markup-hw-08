@@ -9,16 +9,19 @@
   height: 60px;
   padding-top: 16px;
   padding-bottom: 16px;
+  padding-right: 23px;
 
   @media screen and (min-width: 768px) {
     height: 80px;
     padding-top: 26px;
     padding-bottom: 26px;
+    padding-right: 15px;
   }
 }
 .menu-button {
   display: inline-flex;
   margin: 0;
+  margin-left: auto;
   padding: 0;
   border: none;
   background-color: transparent;
