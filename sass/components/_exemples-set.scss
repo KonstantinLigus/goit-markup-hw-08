@@ -1,7 +1,12 @@
 .exemples-set {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 50px;
-  justify-content: center;
+  justify-content: flex-start;
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
 }
 .exemples-set__item:not(:last-child) {
   margin-right: 8px;

@@ -26,8 +26,8 @@
       <div class="header__container container">
         <!-- Логотип сайта -->
         <a href="" class="logo"><span class="logo__accent">Web</span>Studio</a>
-        <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-          <svg width="40" height="40" fill="currentColor" class="menu-button__icon">
+        <button type="button" class="menu-button js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg width="40" height="40" class="menu-button__icon">
             <use href="./images/new-sprite.svg#icon-menu"></use>
           </svg>
         </button>
@@ -47,18 +47,18 @@
             </li>
           </ul>
         </nav>
-        <ul class="contacts-set">
-          <li class="contacts-set__item">
-            <a href="mailto:info@devstudio.com" class="contacts-set__link">
-              <svg width="16" height="12" class="contacts-set__icon">
+        <ul class="contacts-set-flex">
+          <li class="contacts-set-flex__item">
+            <a href="mailto:info@devstudio.com" class="contacts-set-flex__link">
+              <svg width="16" height="12" class="contacts-set-flex__icon">
                 <use href="./images/new-sprite.svg#icon-envelope"></use>
               </svg>
               <span> info@devstudio.com</span>
             </a>
           </li>
-          <li class="contacts-set__item">
-            <a href="tel:+380961111111" class="contacts-set__link">
-              <svg width="10" height="16" class="contacts-set__icon">
+          <li class="contacts-set-flex__item">
+            <a href="tel:+380961111111" class="contacts-set-flex__link">
+              <svg width="10" height="16" class="contacts-set-flex__icon">
                 <use href="./images/new-sprite.svg#icon-phone"></use>
               </svg>
               <span>+380 961 111 111</span>
@@ -68,7 +68,7 @@
       </div>
     </header>
 
-    <div class="menu-container js-menu-container is-open" id="mobile-menu">
+    <div class="menu-container js-menu-container" id="mobile-menu">
       <button type="button" class="menu-toggle js-close-menu">
         <svg width="40" height="40" class="menu-button__icon">
             <use href="./images/new-sprite.svg#icon-close_menu"></use>
@@ -91,21 +91,21 @@
         </nav>
         <ul class="contacts-set">
           <li class="contacts-set__item">
-            <a href="mailto:info@devstudio.com" class="contacts-set__link">
-              <svg width="16" height="12" class="contacts-set__icon">
-                <use href="./images/new-sprite.svg#icon-envelope"></use>
-              </svg>
-              <span> info@devstudio.com</span>
-            </a>
-          </li>
-          <li class="contacts-set__item">
-            <a href="tel:+380961111111" class="contacts-set__link">
-              <svg width="10" height="16" class="contacts-set__icon">
-                <use href="./images/new-sprite.svg#icon-phone"></use>
-              </svg>
+             <a href="tel:+380961111111" class="contacts-set__link-tel">
               <span>+380 961 111 111</span>
             </a>
           </li>
+          <li class="contacts-set__item">
+           <a href="mailto:info@devstudio.com" class="contacts-set__link-mail">
+              <span> info@devstudio.com</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="social-mob">
+          <li class="social-mob__item"><a href="" class="social-mob__link">Instagram</a></li>
+          <li class="social-mob__item"><a href="" class="social-mob__link">Twitter</a></li>
+          <li class="social-mob__item"><a href="" class="social-mob__link">Facebook</a></li>
+          <li class="social-mob__item"><a href="" class="social-mob__link">LinkedIn</a></li>
         </ul>
     </div>
 

@@ -1,4 +1,4 @@
-.contacts-set {
+.contacts-set-flex {
   display: none;
 
   @media screen and (min-width: 768px) {
@@ -11,7 +11,7 @@
     align-items: center;
   }
 }
-.contacts-set__item {
+.contacts-set-flex__item {
   @media screen and (min-width: 768px) {
     &:last-child {
       margin-top: 10px;
@@ -27,7 +27,7 @@
     }
   }
 }
-.contacts-set__link {
+.contacts-set-flex__link {
   display: flex;
   align-items: center;
   width: 100%;
@@ -44,7 +44,7 @@
     color: var(--text-third-color);
   }
 }
-.contacts-set__icon {
+.contacts-set-flex__icon {
   margin-right: 10px;
   fill: currentColor;
 }
