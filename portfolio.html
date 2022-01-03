@@ -40,14 +40,14 @@
         <nav class="navigation-flex">
           <ul class="navigation-set-flex">
             <li class="navigation-set-flex__item">
-              <a
-                href="./index.html"
-                class="navigation-set-flex__link navigation-set-flex__link--current"
-                >Студия</a
-              >
+              <a href="./index.html" class="navigation-set-flex__link">Студия</a>
             </li>
             <li class="navigation-set-flex__item">
-              <a href="./portfolio.html" class="navigation-set-flex__link">Портфолио</a>
+              <a
+                href="./portfolio.html"
+                class="navigation-set-flex__link navigation-set-flex__link--current"
+                >Портфолио</a
+              >
             </li>
             <li class="navigation-set-flex__item">
               <a href="" class="navigation-set-flex__link">Контакты</a>
@@ -142,7 +142,33 @@
             <li class="galery-set__item">
               <a href="" class="galery-set__link">
                 <div class="galery-set__wrap">
-                  <img src="./images/tehnokriak.jpg" alt="laptop" width="370" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/tehnokriak-370-1x.jpg 370w,
+                        ./images/tehnokriak-370-2x.jpg 740w
+                      "
+                      media="(min-width: 1200px)"
+                      sizes="370px"
+                    />
+                    <source
+                      srcset="
+                        ./images/tehnokriak-354-1x.jpg 354w,
+                        ./images/tehnokriak-354-2x.jpg 708w
+                      "
+                      media="(min-width: 768px)"
+                      sizes="354px"
+                    />
+                    <source
+                      srcset="
+                        ./images/tehnokriak-450-1x.jpg 450w,
+                        ./images/tehnokriak-450-2x.jpg 900w
+                      "
+                      media="(min-width: 480px)"
+                      sizes="450px, 100vw"
+                    />
+                    <img src="./images/tehnokriak-370-1x.jpg" alt="laptop" />
+                  </picture>
                   <p class="galery-set__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
@@ -159,11 +185,36 @@
             <li class="galery-set__item">
               <a href="" class="galery-set__link">
                 <div class="galery-set__wrap">
-                  <img
-                    src="./images/new-orlean-vs-golden-star.jpg"
-                    alt="Постер New Orlean vs Golden Star"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/new-orlean-vs-golden-star-370-1x.jpg 370w,
+                        ./images/new-orlean-vs-golden-star-370-2x.jpg 740w
+                      "
+                      media="(min-width: 1200px)"
+                      sizes="370px"
+                    />
+                    <source
+                      srcset="
+                        ./images/new-orlean-vs-golden-star-354-1x.jpg 354w,
+                        ./images/new-orlean-vs-golden-star-354-2x.jpg 708w
+                      "
+                      media="(min-width: 768px)"
+                      sizes="354px"
+                    />
+                    <source
+                      srcset="
+                        ./images/new-orlean-vs-golden-star-450-1x.jpg 450w,
+                        ./images/new-orlean-vs-golden-star-450-2x.jpg 900w
+                      "
+                      media="(min-width: 480px)"
+                      sizes="450px, 100vw"
+                    />
+                    <img
+                      src="./images/new-orlean-vs-golden-star-370-1x.jpg"
+                      alt="Постер New Orlean vs Golden Star"
+                    />
+                  </picture>
                   <p class="galery-set__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
@@ -180,7 +231,33 @@
             <li class="galery-set__item">
               <a href="" class="galery-set__link">
                 <div class="galery-set__wrap">
-                  <img src="./images/restorant-seafood.jpg" alt="Ресторан Seafood" width="370" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/restorant-seafood-370-1x.jpg 370w,
+                        ./images/restorant-seafood-370-2x.jpg 740w
+                      "
+                      media="(min-width: 1200px)"
+                      sizes="370px"
+                    />
+                    <source
+                      srcset="
+                        ./images/restorant-seafood-354-1x.jpg 354w,
+                        ./images/restorant-seafood-354-2x.jpg 708w
+                      "
+                      media="(min-width: 768px)"
+                      sizes="354px"
+                    />
+                    <source
+                      srcset="
+                        ./images/restorant-seafood-450-1x.jpg 450w,
+                        ./images/restorant-seafood-450-2x.jpg 900w
+                      "
+                      media="(min-width: 480px)"
+                      sizes="450px, 100vw"
+                    />
+                    <img src="./images/restorant-seafood-370-1x.jpg" alt="Ресторан Seafood" />
+                  </picture>
                   <p class="galery-set__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
@@ -197,7 +274,24 @@
             <li class="galery-set__item">
               <a href="" class="galery-set__link">
                 <div class="galery-set__wrap">
-                  <img src="./images/prime.jpg" alt="Проект Prime" width="370" />
+                  <picture>
+                    <source
+                      srcset="./images/prime-370-1x.jpg 370w, ./images/prime-370-2x.jpg 740w"
+                      media="(min-width: 1200px)"
+                      sizes="370px"
+                    />
+                    <source
+                      srcset="./images/prime-354-1x.jpg 354w, ./images/prime-354-2x.jpg 708w"
+                      media="(min-width: 768px)"
+                      sizes="354px"
+                    />
+                    <source
+                      srcset="./images/prime-450-1x.jpg 450w, ./images/prime-450-2x.jpg 900w"
+                      media="(min-width: 480px)"
+                      sizes="450px, 100vw"
+                    />
+                    <img src="./images/prime-370-1x.jpg" alt="Проект Prime" />
+                  </picture>
                   <p class="galery-set__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
@@ -214,7 +308,24 @@
             <li class="galery-set__item">
               <a href="" class="galery-set__link">
                 <div class="galery-set__wrap">
-                  <img src="./images/boxes.jpg" alt="Проект Boxes" width="370" />
+                  <picture>
+                    <source
+                      srcset="./images/boxes-370-1x.jpg 370w, ./images/boxes-370-2x.jpg 740w"
+                      media="(min-width: 1200px)"
+                      sizes="370px"
+                    />
+                    <source
+                      srcset="./images/boxes-354-1x.jpg 354w, ./images/boxes-354-2x.jpg 708w"
+                      media="(min-width: 768px)"
+                      sizes="354px"
+                    />
+                    <source
+                      srcset="./images/boxes-450-1x.jpg 450w, ./images/boxes-450-2x.jpg 900w"
+                      media="(min-width: 480px)"
+                      sizes="450px, 100vw"
+                    />
+                    <img src="./images/boxes-370-1x.jpg" alt="Проект Boxes" />
+                  </picture>
                   <p class="galery-set__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
@@ -231,11 +342,36 @@
             <li class="galery-set__item">
               <a href="" class="galery-set__link">
                 <div class="galery-set__wrap">
-                  <img
-                    src="./images/inspiration-has-no-borders.jpg"
-                    alt="Inspiration has no Borders"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/inspiration-has-no-borders-370-1x.jpg 370w,
+                        ./images/inspiration-has-no-borders-370-2x.jpg 740w
+                      "
+                      media="(min-width: 1200px)"
+                      sizes="370px"
+                    />
+                    <source
+                      srcset="
+                        ./images/inspiration-has-no-borders-354-1x.jpg 354w,
+                        ./images/inspiration-has-no-borders-354-2x.jpg 708w
+                      "
+                      media="(min-width: 768px)"
+                      sizes="354px"
+                    />
+                    <source
+                      srcset="
+                        ./images/inspiration-has-no-borders-450-1x.jpg 450w,
+                        ./images/inspiration-has-no-borders-450-2x.jpg 900w
+                      "
+                      media="(min-width: 480px)"
+                      sizes="450px, 100vw"
+                    />
+                    <img
+                      src="./images/inspiration-has-no-borders-370-1x.jpg"
+                      alt="Inspiration has no Borders"
+                    />
+                  </picture>
                   <p class="galery-set__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
@@ -252,11 +388,33 @@
             <li class="galery-set__item">
               <a href="" class="galery-set__link">
                 <div class="galery-set__wrap">
-                  <img
-                    src="./images/limited-edition.jpg"
-                    alt="Издание Limited Edition"
-                    width="370"
-                  />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/limited-edition-370-1x.jpg 370w,
+                        ./images/limited-edition-370-2x.jpg 740w
+                      "
+                      media="(min-width: 1200px)"
+                      sizes="370px"
+                    />
+                    <source
+                      srcset="
+                        ./images/limited-edition-354-1x.jpg 354w,
+                        ./images/limited-edition-354-2x.jpg 708w
+                      "
+                      media="(min-width: 768px)"
+                      sizes="354px"
+                    />
+                    <source
+                      srcset="
+                        ./images/limited-edition-450-1x.jpg 450w,
+                        ./images/limited-edition-450-2x.jpg 900w
+                      "
+                      media="(min-width: 480px)"
+                      sizes="450px, 100vw"
+                    />
+                    <img src="./images/limited-edition-370-1x.jpg" alt="Издание Limited Edition" />
+                  </picture>
                   <p class="galery-set__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
@@ -273,7 +431,24 @@
             <li class="galery-set__item">
               <a href="" class="galery-set__link">
                 <div class="galery-set__wrap">
-                  <img src="./images/lab.jpg" alt="Проект LAB" width="370" />
+                  <picture>
+                    <source
+                      srcset="./images/lab-370-1x.jpg 370w, ./images/lab-370-2x.jpg 740w"
+                      media="(min-width: 1200px)"
+                      sizes="370px"
+                    />
+                    <source
+                      srcset="./images/lab-354-1x.jpg 354w, ./images/lab-354-2x.jpg 708w"
+                      media="(min-width: 768px)"
+                      sizes="354px"
+                    />
+                    <source
+                      srcset="./images/lab-450-1x.jpg 450w, ./images/lab-450-2x.jpg 900w"
+                      media="(min-width: 480px)"
+                      sizes="450px, 100vw"
+                    />
+                    <img src="./images/lab-370-1x.jpg" alt="Проект LAB" />
+                  </picture>
                   <p class="galery-set__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
@@ -290,7 +465,33 @@
             <li class="galery-set__item">
               <a href="" class="galery-set__link">
                 <div class="galery-set__wrap">
-                  <img src="./images/growing-business.jpg" alt="Growing Business" width="370" />
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/growing-business-370-1x.jpg 370w,
+                        ./images/growing-business-370-2x.jpg 740w
+                      "
+                      media="(min-width: 1200px)"
+                      sizes="370px"
+                    />
+                    <source
+                      srcset="
+                        ./images/growing-business-354-1x.jpg 354w,
+                        ./images/growing-business-354-2x.jpg 708w
+                      "
+                      media="(min-width: 768px)"
+                      sizes="354px"
+                    />
+                    <source
+                      srcset="
+                        ./images/growing-business-450-1x.jpg 450w,
+                        ./images/growing-business-450-2x.jpg 900w
+                      "
+                      media="(min-width: 480px)"
+                      sizes="450px, 100vw"
+                    />
+                    <img src="./images/growing-business-370-1x.jpg" alt="Growing Business" />
+                  </picture>
                   <p class="galery-set__text">
                     Технокряк это современная площадка распространения коронавируса. Компании
                     используют эту платформу для цифрового шпионажа и атак на защищённые сервера
