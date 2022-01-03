@@ -1,6 +1,6 @@
 .navigation-set__link {
-  display: block;
   @extend %link-style;
+  display: block;
   font-size: 40px;
   line-height: 1.18;
   color: var(--text-second-color);
@@ -12,4 +12,19 @@
 }
 .navigation-set__link--current {
   color: var(--text-third-color);
+}
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 32px;
+  background-color: var(--header-hero-color);
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+.menu-container.is-open {
+  transform: translateX(0);
 }

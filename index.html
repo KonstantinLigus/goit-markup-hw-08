@@ -27,12 +27,12 @@
         <!-- Логотип сайта -->
         <a href="" class="logo"><span class="logo__accent">Web</span>Studio</a>
         <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-          <svg width="40" height="40" class="menu-button__icon">
+          <svg width="40" height="40" fill="currentColor" class="menu-button__icon">
             <use href="./images/new-sprite.svg#icon-menu"></use>
           </svg>
         </button>
         <!-- Навигация, телефон, контакты -->
-        <nav class="navigation">
+        <nav class="navigation-flex">
           <ul class="navigation-set-flex">
             <li class="navigation-set-flex__item">
               <a href="./index.html" class="navigation-set-flex__link navigation-set-flex__link--current"
@@ -606,5 +606,12 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+     <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>
