@@ -1,0 +1,15 @@
+.navigation-set__link {
+  display: block;
+  @extend %link-style;
+  font-size: 40px;
+  line-height: 1.18;
+  color: var(--text-second-color);
+
+  &:hover,
+  &:focus {
+    color: var(--text-third-color);
+  }
+}
+.navigation-set__link--current {
+  color: var(--text-third-color);
+}

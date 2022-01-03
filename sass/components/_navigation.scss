@@ -10,16 +10,20 @@
     margin-left: 93px;
   }
 }
-.navigation-set {
+.navigation-set-flex {
   display: flex;
 }
 
-.navigation-set__item:not(:first-child) {
+.navigation-set--flex__item:not(:first-child) {
   margin-left: 50px;
 }
-.navigation-set__link {
+.navigation-set--flex__link {
   @extend %link-style;
   display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 14px;
+  line-height: 1.14;
   color: var(--text-second-color);
 
   &:hover,
