@@ -1,8 +1,13 @@
 .sign-form {
+  @media screen and (min-width: 480px) {
+    margin-top: 60px;
+  }
+
   @media screen and (min-width: 1200px) {
     display: flex;
     align-items: flex-end;
     margin-left: 93px;
+    margin-top: 0;
   }
 }
 .sign-form__label {
@@ -34,6 +39,7 @@
   @media screen and (min-width: 480px) {
     width: 450px;
   }
+
   @media screen and (min-width: 1200px) {
     width: 358px;
     margin-right: 12px;

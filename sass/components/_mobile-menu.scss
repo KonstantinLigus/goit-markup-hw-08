@@ -1,5 +1,7 @@
 .menu-container {
   position: fixed;
+  display: flex;
+  flex-direction: column;
   top: 0;
   left: 0;
   width: 100vw;
@@ -63,7 +65,7 @@
 
 /* Контакты */
 .contacts-set {
-  margin-top: 306px;
+  margin-top: auto;
   margin-bottom: 64px;
 }
 .contacts-set__item {
@@ -107,13 +109,13 @@
 /* Соц сети */
 .social-mob {
   display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
 }
 .social-mob__item {
-  &:not(:first-child) {
-    margin-left: 10px;
-    padding-left: 10px;
-    border-left: 1px solid rgba(33, 33, 33, 0.2);
-  }
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid rgba(33, 33, 33, 0.2);
 }
 .social-mob__link {
   display: block;
